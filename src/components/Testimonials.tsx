@@ -5,7 +5,7 @@ const TESTIMONIALS = [
   {
     name: "M.Sandseep .",
     role: "CEO, Redline Ventures",
-    text: "Velocity handled my Bangalore→Coorg trip like a private jet on wheels.",
+    text: "Mallikarjuna handled my Bangalore→Coorg trip like a private jet on wheels.",
     img: "https://randomuser.me/api/portraits/men/32.jpg",
   },
   {

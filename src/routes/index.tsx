@@ -1,10 +1,10 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { Hero,Marquee } from "@/components/Hero";
-import { FleetMarketplace } from "@/components/fleet";
+import  FleetPage from "@/components/fleet";
 import { Tours } from "@/components/tour";
-import { About } from "@/components/about";
 import { Services } from "@/components/service";
 import { AIPlanner } from "@/components/AIPlanner";
+import About from "@/components/about";
 import { Testimonials } from "@/components/Testimonials";
 import { Booking } from "@/components/Booking";
 
@@ -25,7 +25,7 @@ function HomePage() {
     <div className="min-h-screen bg-background text-foreground">
       <Hero />
       <Marquee />
-      <FleetMarketplace />
+      <FleetPage />
       <Tours />
       <About />
       <Services />

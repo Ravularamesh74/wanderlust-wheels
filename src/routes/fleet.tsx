@@ -1,5 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { FleetMarketplace } from "@/components/fleet";
+import FleetMarketplace  from "@/components/fleet";
 
 export const Route = createFileRoute("/fleet")({
   component: FleetPage,
